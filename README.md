@@ -27,18 +27,30 @@ This project is an image classification model built using **Teachable Machine by
 
 ```bash
 pip install tensorflow keras pillow numpy
-
-Run the script:
-
+```
+2. Run the script:
+```bash
 python predict.py
-
-You should see output like:
-
+```
+3. You should see output like:
+```bash
 test.jpg  => Predicted class: crocodile
 test1.jpg => Predicted class: snake
 ```
 ## 📸 Screenshot
 
-![Output](./output.png)
+### 🔹 Test Images
+
+| Image | Class |
+|-------|-------|
+| ![Crocodile](./test.jpg) | Crocodile |
+| ![Snake](./test1.jpg) | Snake |
+
+### 🔹 Terminal Output
+![Model Output](./output.png)
+
+## 🌐 Resources
+- [Teachable Machine by Google](https://teachablemachine.withgoogle.com/)
+- [TensorFlow Documentation](https://www.tensorflow.org/)
 
 ## 🛠 Made by: Musaad Al-Ghashmari
